@@ -1,0 +1,31 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# env
+venv/
+env/
+
+# Django stuff
+*.log
+*.pot
+*.mo
+manage.pyc
+.coverage
+.Python
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Environment variables file
+.env
+
+# IDE specific files
+.idea/
+*.swp
+*.swo
